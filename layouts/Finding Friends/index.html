@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found friends</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link type="image/x-icon" href="./img/apple.ico" rel="shortcut icon">
+
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+
+<div class="header__menu">
+<div class="header__menu-logo">MOVEON</div>
+
+<button class="burger" aria-label="Скрытое меню">
+    <span class="burger__line"></span>
+    <span class="burger__line"></span>
+    <span class="burger__line"></span>
+</button>
+
+<nav class="burger__nav">
+<ul class="header__menu-item">
+<li class="header__menu-items" aria-label="Главное"><a href="#main"
+    class="header__menu-items-link">Главное</a></li>
+<li class="header__menu-items" aria-label="Функционал"><a href="#function"
+    class="header__menu-items-link">Функционал</a></li>
+<li class="header__menu-items" aria-label="Подробнее"><a href="#info"
+    class="header__menu-items-link">Подробнее</a></li>
+<li class="header__menu-items" aria-label="О нас"><a href="#contacts"
+    class="header__menu-items-link">О нас</a></li>
+<li class="header__menu-items" aria-label="Контакты"><a href="#social"
+    class="header__menu-items-link">Контакты</a></li>
+</ul>
+</nav>
+</div>
+<div class="header__info" id="main">
+    <div class="header__info-left">
+<h1 class="header__info-title">НАЙДИ СВОЮ КОМПАНИЮ ДРУЗЕЙ</h1>
+<p class="header__info-title-text">С помощью приложения Moveon найди свою компанию для походов в кафе, бар или для прогулок по городу</p>
+<div class="header__info-button">
+    <button class="header__info-button-store" aria-label="App store"><svg class="header__info-button-store-svg" width="26" height="30" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.0059 4.7455C18.9554 3.63884 19.6143 2.11953 19.6143 0.600222C19.6143 0.393896 19.5949 0.168812 19.5562 0C18.0253 0.0562708 16.165 0.994117 15.0605 2.26959C14.1885 3.22619 13.3746 4.7455 13.3746 6.28357C13.3746 6.50866 13.4133 6.7525 13.4327 6.82752C13.5296 6.84628 13.6846 6.86504 13.8396 6.86504C15.2349 6.86504 16.9789 5.9647 18.0059 4.7455ZM19.0911 7.1839C16.7657 7.1839 14.8861 8.55316 13.6846 8.55316C12.4057 8.55316 10.7004 7.25893 8.6851 7.25893C4.86763 7.25893 0.972656 10.3351 0.972656 16.0934C0.972656 19.7135 2.42601 23.5024 4.1894 25.9596C5.72027 28.0416 7.05735 29.7297 8.95639 29.7297C10.8554 29.7297 11.7081 28.5105 14.0722 28.5105C16.4557 28.5105 16.9983 29.6922 19.0911 29.6922C21.1839 29.6922 22.5597 27.854 23.8581 26.0346C25.3308 23.9526 25.9509 21.9269 25.9703 21.8143C25.854 21.7768 21.8621 20.22 21.8621 15.7933C21.8621 11.9857 25.0014 10.2788 25.1758 10.1475C23.1217 7.25893 19.9631 7.1839 19.0911 7.1839Z" fill="white"/>
+        </svg>APP STORE</button>
+    <button aria-label="Play Market" class="header__info-button-market"><svg class="header__info-button-market-svg" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.54671 2.81311L15.6328 12.2768C15.8688 12.5223 16.2653 12.5223 16.5013 12.2768L18.3421 10.3605C18.6159 10.0773 18.5545 9.61471 18.21 9.42118C13.4569 6.73075 7.56624 3.3984 6.54671 2.81311ZM3.79492 3.44088C3.69108 3.6816 3.625 3.9412 3.625 4.23385V24.8841C3.625 25.1201 3.67692 25.3372 3.75716 25.5449L13.9855 14.8917C14.2121 14.6604 14.2121 14.2923 13.9855 14.0563L3.79492 3.44088ZM21.075 11.1865C20.9476 11.2054 20.8249 11.2667 20.7305 11.3658L18.1439 14.0563C17.9173 14.2876 17.9173 14.6557 18.1439 14.8917L20.7069 17.5586C20.8957 17.7568 21.2025 17.7993 21.4432 17.6624C23.2321 16.6476 24.4404 15.9679 24.4404 15.9679C25.0446 15.5997 25.3844 15.038 25.375 14.4244C25.3656 13.825 25.0163 13.268 24.4357 12.9423C24.3649 12.8999 23.1849 12.2343 21.4621 11.262C21.3441 11.1912 21.2072 11.1676 21.075 11.1865ZM16.0671 16.4871C15.9066 16.4871 15.7508 16.5485 15.6281 16.6759L6.61279 26.0594C8.16569 25.1767 13.6882 22.052 18.1864 19.5079C18.5309 19.3097 18.5923 18.8471 18.3185 18.5639L16.5013 16.6759C16.3833 16.5485 16.2275 16.4871 16.0671 16.4871Z" fill="white"/>
+        </svg>PLAY MARKET</button>
+</div>
+</div>
+<div class="header__info-right">
+<div class="header__info-img">
+    <img src="./img/Group 113 (4) 1.svg" alt="" class="header__info-image">
+</div>
+</div>
+</div>
+    </div>
+    <script src="./css/index.js"></script>
+</header>
+
+<main>
+    <section class="function" id="function">
+        <div class="container">
+            <h2 class="function__title">ФУНКЦИОНАЛ</h2>
+            <p class="function__title-text">Moveon поможет найти единомышленников и <br> собрать большую компанию в одном месте.</p>
+<div class="function__menu">
+<div class="function__menu-left">
+    <ul class="function__menu-left-item">
+        <li class="function__menu-left-items" aria-label="Преимущества">
+            <div class="function__menu-left-info">
+        <h3 class="function__menu-left-items-title">Присоединяйся к событиям</h3>
+        <p class="function__menu-left-items-text">Находи интерисующии тебя события на главном экране и жми хочу пойти</p>
+            </div>
+            <div class="function__menu-left-items-image">
+                <img src="./img/Ellipse 30.svg">
+            </div>
+    </li>
+        <li class="function__menu-left-items" aria-label="Преимущества">
+            <div class="function__menu-left-info">
+               <h3 class="function__menu-left-items-title">Ищи события по фильтрам </h3>
+        <p class="function__menu-left-items-text">Для поиска событий мы предлагаем более 10 фильтров</p>
+    </div>
+    <div class="function__menu-left-items-image-2">
+        <img src="./img/Ellipse 30.svg">
+    </div>
+        </li>
+        <li class="function__menu-left-items" aria-label="Преимущества">
+            <div class="function__menu-left-info">
+               <h3 class="function__menu-left-items-title">Куда пойдут твои друзья?</h3>
+        <p class="function__menu-left-items-text">В любом профиле видны все события которые посещал пользователь или на которые планирует пойти</p>
+    </div>  
+    <div class="function__menu-left-items-image-3">
+        <img src="./img/Ellipse 30.svg">
+    </div>
+   
+    </li>
+        
+    </ul>
+</div>
+<div class="function__menu-center">
+    <img src="./img/Graphite 1.svg">
+</div>
+
+<div class="function__menu-right">
+ <ul class="function__menu-right-item">
+        <li class="function__menu-right-items" aria-label="Преимущества">
+            <div class="function__menu-right-items-image-4">
+                <img src="./img/Ellipse 30.svg">
+            </div>
+            <div class="function__menu-right-info">
+        <h3 class="function__menu-right-items-title">Создавай свои события</h3>
+        <p class="function__menu-right-items-text">Жми на плюсик в главном меню, создавай свое событие и одобряй участие новых друзей</p>
+    </div>
+    </li>
+        <li class="function__menu-right-items" aria-label="Преимущества">
+            <div class="function__menu-right-items-image-5">
+                <img src="./img/Ellipse 30.svg">
+            </div> 
+            <div class="function__menu-right-info">
+               <h3 class="function__menu-right-items-title">Оставляй метки на карте</h3>
+        <p class="function__menu-right-items-text">Отмечайся на карте, чтобы быстрее находить компанию</p>
+            </div>  
+        
+    </li>
+        <li class="function__menu-right-items" aria-label="Преимущества">
+            <div class="function__menu-right-items-image-6">
+                <img src="./img/Ellipse 30.svg">
+            </div>
+            <div class="function__menu-right-info">
+               <h3 class="function__menu-right-items-title">Чаты и беседы</h3>
+        <p class="function__menu-right-items-text">Общайся в чатах с друзьями, обсуждайте события в беседах</p>
+    </div>
+   
+        </li>
+    </ul>
+</div>
+</div>
+        </div>
+    </section>
+</main>
+<footer class="footer" id="info">
+<div class="container">
+<div class="footer__menu">
+<div class="footer__menu-left">
+    <h3 class="footer__menu-left-title">About MOVEON</h3>
+    <p class="footer__menu-left-text">Moveon поможет найти единомышленников и собрать большую компанию в одном месте.
+        Создавай свое событие куда бы ты хотел сходить, люди увидят твое событие в ленте и желающие присоединятся к тебе.</p>
+</div>
+<div class="footer__menu-center" id="contacts">
+    <h3 class="footer__menu-center-title">Наши Контакты</h3>
+    <a href="" class="footer__menu-center-link">moveon-app@mail.ru</a>
+    <a href="" class="footer__menu-center-link">businessdevelopermarket@gmail.com</a>
+    <a href="tel:+79002203434" class="footer__menu-center-link">+7&nbsp;900 220 34 34</a>
+</div>
+<div class="footer__menu-right" id="social">
+    <h3 class="footer__menu-right-title">Социальные сети</h3>
+    <ul class="footer__menu-right-item">
+        <li class="footer__menu-right-items"><a href="" class="footer__menu-right-items-tw"><svg width="50" height="47" viewBox="0 0 50 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25" cy="23.2195" rx="25" ry="23.1082" fill="white"/>
+            <path d="M38.2518 17.3273C37.3768 17.6739 36.3768 17.905 35.3768 18.0206C36.3768 17.4429 37.2518 16.5186 37.6268 15.4787C36.6268 16.0564 35.6268 16.403 34.3768 16.6341C33.5018 15.7098 32.1268 15.1321 30.7518 15.1321C28.0018 15.1321 25.7518 17.2118 25.7518 19.7537C25.7518 20.1003 25.7518 20.4469 25.8768 20.7935C21.7518 20.5624 18.0018 18.7138 15.5018 15.9409C15.1268 16.6341 14.8768 17.4429 14.8768 18.2516C14.8768 19.8692 15.7518 21.2557 17.1268 22.0645C16.2518 22.0645 15.5018 21.8334 14.8768 21.4868C14.8768 23.682 16.6268 25.6462 18.8768 25.9928C18.5018 26.1083 18.0018 26.1083 17.5018 26.1083C17.1268 26.1083 16.8768 26.1083 16.5018 25.9928C17.1268 27.8414 19.0018 29.2279 21.2518 29.2279C19.5018 30.4988 17.3768 31.1921 15.0018 31.1921C14.6268 31.1921 14.2518 31.1921 13.7518 31.0765C16.0018 32.3475 18.6268 33.1562 21.5018 33.1562C30.7518 33.1562 35.7518 26.1083 35.7518 19.9847V19.407C36.7518 19.0604 37.6268 18.2516 38.2518 17.3273Z" fill="#8253D8"/>
+            </svg>
+            </a></li>
+        <li class="footer__menu-right-items"><a href="" class="footer__menu-right-items-fb"><svg width="50" height="47" viewBox="0 0 50 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25" cy="23.2197" rx="25" ry="23.1084" fill="white"/>
+            <path d="M35.2499 16.6314C35.2499 14.9013 33.5983 13.3748 31.7266 13.3748H17.5233C15.6515 13.3748 14 14.9013 14 16.6314V29.7597C14 31.4898 15.6515 33.0164 17.5233 33.0164H24.68V25.5871H22.0375V22.3305H24.68V21.0075C24.68 18.7686 26.4416 16.8349 28.6437 16.8349H31.5064V20.0916H28.6437C28.3134 20.0916 27.9831 20.3969 27.9831 21.0075V22.3305H31.5064V25.5871H27.9831V33.0164H31.7266C33.5983 33.0164 35.2499 31.4898 35.2499 29.7597V16.6314Z" fill="#8253D8"/>
+            </svg>
+            </a></li>
+        <li class="footer__menu-right-items"><a href="" class="footer__menu-right-items-inst"><svg width="50" height="47" viewBox="0 0 50 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="25" cy="23.2195" rx="25" ry="23.1082" fill="white"/>
+            <path d="M33.2291 13.9766H18.0257C16.3092 13.9766 15.0013 15.1853 15.0013 16.7717V30.823C15.0013 32.4094 16.3092 33.6182 18.0257 33.6182H33.2291C34.9456 33.6182 36.2534 32.4094 36.2534 30.823V16.7717C36.2534 15.1853 34.9456 13.9766 33.2291 13.9766ZM25.6274 29.6898C29.1421 29.6898 32.003 27.1213 32.003 24.024C32.003 23.4952 31.9213 22.8908 31.7578 22.4376H33.556V30.4453C33.556 30.823 33.2291 31.2007 32.7386 31.2007H18.5161C18.1074 31.2007 17.6987 30.8986 17.6987 30.4453V22.362H19.5787C19.4152 22.8908 19.3335 23.4196 19.3335 23.9485C19.2518 27.1213 22.1126 29.6898 25.6274 29.6898ZM25.6274 27.4235C23.3387 27.4235 21.5404 25.7615 21.5404 23.7218C21.5404 21.6821 23.3387 20.0201 25.6274 20.0201C27.9161 20.0201 29.7143 21.6821 29.7143 23.7218C29.7143 25.8371 27.9161 27.4235 25.6274 27.4235ZM33.4743 19.3402C33.4743 19.7935 33.0656 20.1712 32.5752 20.1712H30.2865C29.7961 20.1712 29.3874 19.7935 29.3874 19.3402V17.3005C29.3874 16.8473 29.7961 16.4695 30.2865 16.4695H32.5752C33.0656 16.4695 33.4743 16.8473 33.4743 17.3005V19.3402Z" fill="#8253D8"/>
+            </svg>
+            </a></li>
+    </ul>  
+</div>
+</div>
+<div class="footer__menu-dop">
+    <p class="footer__menu-dop-text"> APP MOVEON @ 2021</p>
+</div>
+</div>
+</footer>
+
+</body>
+
+</html>
