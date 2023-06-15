@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+/* header */
+
+header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header__text {
+    background-image: url(../images/kissen_3_ds_1\ 1.png), url(../images/wb_product_kissen_3_1.png);
+    background-repeat: no-repeat;
+    background-position: right, left top;
+    text-align: center;
+    background-color: #222639;
+    border-radius: 25px;
+}
+
+.header__title {
+    padding: 190px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__nav {
+    background: #222639;
+    border-radius: 25.1852px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 64px;
+}
+
+/* sections */
+
+.section__content {
+    overflow: hidden;
+    background: #222639;
+    border-radius: 25.1852px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.section__text {
+    padding: 60px 50px 60px 60px;
+}
+
+.section__image_1 {
+    background-image: url(../images/wb_product_kissen_1_1\ 1.png);
+    background-repeat: no-repeat;
+    max-height: 500px;
+    width: 50%;
+    background-position: center;
+    padding: 90px 50px 90px 70px;
+}
+
+.section__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.section__descr {
+    max-width: 670px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    color: #9295A2;
+}
+  
+.section__image {
+    width: 50%;
+    object-fit: cover;
+}
+
+
+/* footer */
+
+.footer {
+    background: #222639;
+    border-radius: 25.1852px;
+}
+
+.footer__list {
+    padding: 60px;
+    display: flex;
+}
+
+.footer__item {
+    margin-right: 50px;
+}
+
+.footer__item:last-child {
+    margin-right: 0;
+}
+
+.footer__title {
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 145%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__descr {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    color: #9295A2;
+}
