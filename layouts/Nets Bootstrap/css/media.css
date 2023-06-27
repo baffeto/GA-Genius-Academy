@@ -1,0 +1,249 @@
+@media (max-width:995px) {
+    .main-title {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .main {
+        padding-top: 17%;
+        padding-bottom: 17.5%;
+    }
+
+    .main-text {
+        margin-bottom: 61px;
+    }
+
+    .about__col-list {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin-bottom: 4%;
+    }
+
+    .about {
+        padding-bottom: 9.5%;
+    }
+
+    .people {
+        padding-bottom: 3.5%;
+        padding-top: 10.2%;
+        margin-bottom: 9.8%;
+    }
+
+    .col-lg-3.col-sm-6 {
+        margin-bottom: 23px;
+    }
+
+    .courses-info-text {
+        margin-bottom: 32px;
+    }
+
+    .courses-info-link {
+        padding: 20px 56px;
+    }
+
+    .courses {
+        padding-bottom: 6.3%;
+    }
+
+    .footer {
+        padding-top: 3.7%;
+        padding-bottom: 3.1%;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    .header__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__main-logo {
+        margin-bottom: 6%;
+    }
+
+    .main {
+        padding-top: 13.3%;
+        padding-bottom: 23.5%;
+    }
+
+    .main-picture {
+        display: none;
+    }
+
+    .people {
+        padding-bottom: 8.5%;
+        padding-top: 13.4%;
+        margin-bottom: 12.8%;
+    }
+
+    .people-img {
+        margin-bottom: 16%;
+    }
+
+    .courses-info-title {
+        margin-bottom: 3px;
+        width: 110%;
+    }
+
+    .courses-info-text {
+        margin-bottom: 10px;
+    }
+
+    .courses-info-link {
+        padding: 20px 49px;
+    }
+
+    .courses-content-span {
+        padding-right: 10px;
+        padding-top: 11px;
+    }
+
+    .courses-info-text {
+        margin-bottom: 34px;
+        width: 111%;
+    }
+
+    .courses {
+        padding-bottom: 9%;
+    }
+
+    .footer {
+        padding-top: 4.7%;
+        padding-bottom: 4.4%;
+    }
+
+    .about__row {
+        margin-bottom: 25px;
+        align-items: flex-start;
+    }
+
+
+}
+
+@media(max-width:500px) {
+
+    .header__main-logo {
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .header__main {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .header__main__nav {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .main-title {
+        font-size: 30px;
+        line-height: 100%;
+        margin-bottom: 5px;
+    }
+
+    .main {
+        padding-top: 15.3%;
+        padding-bottom: 15.5%;
+        margin-bottom: 15.2%;
+    }
+
+    .main-text {
+        font-size: 16px;
+        line-height: 130%;
+        width: 101%;
+        margin-bottom: 46px;
+    }
+
+    .main-button {
+        font-size: 16px;
+        padding: 20px 54.5px;
+    }
+
+
+    .about-title {
+        font-size: 20px;
+        line-height: 130%;
+        margin-bottom: 2px;
+    }
+
+    .about-picture {
+        display: none;
+    }
+
+    .row-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__col-list {
+        flex-direction: row;
+        margin-bottom: 5.5%;
+    }
+
+    .about-img {
+        margin-right: 10.9%;
+    }
+
+    .about {
+        padding-bottom: 6.5%;
+
+    }
+
+    .people-title {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .people {
+        padding-bottom: 6.5%;
+        padding-top: 14.8%;
+        margin-bottom: 14.8%;
+    }
+
+    .people-img {
+        margin-bottom: 9.5%;
+    }
+
+    .courses-title {
+        font-size: 20px;
+
+    }
+
+    .courses-info-title {
+        margin-bottom: 3px;
+        width: 100%;
+    }
+
+    .courses-info-text {
+        width: 101%;
+    }
+
+    .courses-info-link {
+        padding: 21px 56px;
+    }
+
+    .dop-content {
+        min-height: 658px;
+    }
+
+    .courses {
+        padding-bottom: 1%;
+    }
+
+    .footer {
+        padding-top: 8.7%;
+        padding-bottom: 8.4%;
+    }
+
+}
